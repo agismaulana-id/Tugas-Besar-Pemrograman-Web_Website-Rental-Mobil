@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Mobil</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="navbar">
+
+        <div class="logo">RentalMobilID</div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="mobil.html">Mobil</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main class="container">
+
+    <h1>Form Booking Mobil</h1>
+
+    <br>
+
+    <form>
+
+        <div class="form-group">
+
+            <label>Nama Penyewa</label>
+
+            <input type="text">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Tanggal Mulai</label>
+
+            <input type="date" id="mulai" onchange="hitungTotal()">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Tanggal Selesai</label>
+
+            <input type="date" id="selesai" onchange="hitungTotal()">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Total Harga</label>
+
+            <h2 id="total">Rp 0</h2>
+
+        </div>
+
+        <a href="https://wa.me/62895337468650" class="btn-wa">
+    Lanjut Pembayaran
+</a>
+
+    </form>
+
+</main>
+
+<footer>
+
+    <p>© 2026 Rental Mobil Indonesia</p>
+
+</footer>
+
+</body>
+</html>
